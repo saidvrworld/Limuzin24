@@ -1,0 +1,63 @@
+
+/* Class = "UILabel"; text = "Согласен с условиями Track24"; ObjectID = "AgZ-Rh-pjL"; */
+"AgZ-Rh-pjL.text" = "Согласен с условиями Track24";
+
+/* Class = "UILabel"; text = "имя фамилия"; ObjectID = "Cxp-0U-adL"; */
+"Cxp-0U-adL.text" = "имя фамилия";
+
+/* Class = "UIButton"; normalTitle = "AgreeButton"; ObjectID = "D55-12-eZY"; */
+"D55-12-eZY.normalTitle" = "AgreeButton";
+
+/* Class = "UILabel"; text = "Track24"; ObjectID = "G2X-PO-Jyk"; */
+"G2X-PO-Jyk.text" = "Track24";
+
+/* Class = "UILabel"; text = "Вы неправильно ввели номер телефона"; ObjectID = "G2g-9c-Il4"; */
+"G2g-9c-Il4.text" = "Вы неправильно ввели номер телефона";
+
+/* Class = "UILabel"; text = "Наше приложение предоставляет \nсервис для связи водителей грузоперевозочных техники\nи заказчиков которым эти услуги нужны"; ObjectID = "GZ2-5Y-dUY"; */
+"GZ2-5Y-dUY.text" = "Наше приложение предоставляет \nсервис для связи водителей грузоперевозочных техники\nи заказчиков которым эти услуги нужны";
+
+/* Class = "UIButton"; normalTitle = "Зарегистрироваться"; ObjectID = "IjP-82-7hw"; */
+"IjP-82-7hw.normalTitle" = "Зарегистрироваться";
+
+/* Class = "UIButton"; normalTitle = "Заказчик"; ObjectID = "Ipr-N9-XeR"; */
+"Ipr-N9-XeR.normalTitle" = "Заказчик";
+
+/* Class = "UILabel"; text = "Авторизация"; ObjectID = "JNx-7Z-QcR"; */
+"JNx-7Z-QcR.text" = "Авторизация";
+
+/* Class = "UIButton"; normalTitle = "ОК"; ObjectID = "LUk-vR-L8v"; */
+"LUk-vR-L8v.normalTitle" = "ОК";
+
+/* Class = "UIButton"; normalTitle = "ОК"; ObjectID = "Miu-F2-pMh"; */
+"Miu-F2-pMh.normalTitle" = "ОК";
+
+/* Class = "UILabel"; text = "Track24"; ObjectID = "ONc-hv-jIU"; */
+"ONc-hv-jIU.text" = "Track24";
+
+/* Class = "UILabel"; text = "Номер Телефона"; ObjectID = "RtU-co-uZI"; */
+"RtU-co-uZI.text" = "Номер Телефона";
+
+/* Class = "UILabel"; text = "+998"; ObjectID = "ZlE-l4-8If"; */
+"ZlE-l4-8If.text" = "+998";
+
+/* Class = "UITextField"; text = "ывыфв"; ObjectID = "aJv-Sq-W8V"; */
+"aJv-Sq-W8V.text" = "ывыфв";
+
+/* Class = "UIButton"; normalTitle = "Перевозчик"; ObjectID = "af7-Lc-q8H"; */
+"af7-Lc-q8H.normalTitle" = "Перевозчик";
+
+/* Class = "UIButton"; normalTitle = "Пропустить"; ObjectID = "ajn-Sp-VhT"; */
+"ajn-Sp-VhT.normalTitle" = "Пропустить";
+
+/* Class = "UILabel"; text = "Вы не ввели имя"; ObjectID = "gck-Le-TeN"; */
+"gck-Le-TeN.text" = "Вы не ввели имя";
+
+/* Class = "UIButton"; normalTitle = "У меня есть аккаунт"; ObjectID = "gwd-kL-SDL"; */
+"gwd-kL-SDL.normalTitle" = "У меня есть аккаунт";
+
+/* Class = "UIButton"; normalTitle = "ОК"; ObjectID = "j31-yT-aJB"; */
+"j31-yT-aJB.normalTitle" = "ОК";
+
+/* Class = "UILabel"; text = "Вы не приняли наше соглашение"; ObjectID = "srA-To-PU6"; */
+"srA-To-PU6.text" = "Вы не приняли наше соглашение";

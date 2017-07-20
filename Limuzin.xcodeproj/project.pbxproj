@@ -1,0 +1,1433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BBA87D7081B831BD37BB987 /* Pods_Limuzin24UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503737B1FBBE102A086D567F /* Pods_Limuzin24UITests.framework */; };
+		9011262D1F1A27C90059097F /* Limuzin24Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011262C1F1A27C90059097F /* Limuzin24Tests.swift */; };
+		901126381F1A27C90059097F /* Limuzin24UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901126371F1A27C90059097F /* Limuzin24UITests.swift */; };
+		901127591F1A2C550059097F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901126F11F1A2C550059097F /* AppDelegate.swift */; };
+		9011275A1F1A2C550059097F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901126F21F1A2C550059097F /* Assets.xcassets */; };
+		9011275B1F1A2C550059097F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901126F41F1A2C550059097F /* LaunchScreen.storyboard */; };
+		9011275C1F1A2C550059097F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901126F61F1A2C550059097F /* Main.storyboard */; };
+		9011275D1F1A2C550059097F /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 901126F81F1A2C550059097F /* Main.strings */; };
+		9011275E1F1A2C550059097F /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 901126FC1F1A2C550059097F /* FSCalendar+Deprecated.m */; };
+		9011275F1F1A2C550059097F /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 901126FE1F1A2C550059097F /* FSCalendar.m */; };
+		901127601F1A2C550059097F /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 901127001F1A2C550059097F /* FSCalendarAppearance.m */; };
+		901127611F1A2C550059097F /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 901127021F1A2C550059097F /* FSCalendarCalculator.m */; };
+		901127621F1A2C550059097F /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 901127041F1A2C550059097F /* FSCalendarCell.m */; };
+		901127631F1A2C550059097F /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 901127061F1A2C550059097F /* FSCalendarCollectionView.m */; };
+		901127641F1A2C560059097F /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 901127081F1A2C550059097F /* FSCalendarCollectionViewLayout.m */; };
+		901127651F1A2C560059097F /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9011270A1F1A2C550059097F /* FSCalendarConstants.m */; };
+		901127661F1A2C560059097F /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9011270C1F1A2C550059097F /* FSCalendarDelegationFactory.m */; };
+		901127671F1A2C560059097F /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9011270E1F1A2C550059097F /* FSCalendarDelegationProxy.m */; };
+		901127681F1A2C560059097F /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 901127111F1A2C550059097F /* FSCalendarExtensions.m */; };
+		901127691F1A2C560059097F /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 901127131F1A2C550059097F /* FSCalendarHeaderView.m */; };
+		9011276A1F1A2C560059097F /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 901127151F1A2C550059097F /* FSCalendarScopeHandle.m */; };
+		9011276B1F1A2C560059097F /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 901127171F1A2C550059097F /* FSCalendarStickyHeader.m */; };
+		9011276C1F1A2C560059097F /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 901127191F1A2C550059097F /* FSCalendarTransitionCoordinator.m */; };
+		9011276D1F1A2C560059097F /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9011271B1F1A2C550059097F /* FSCalendarWeekdayView.m */; };
+		9011276E1F1A2C560059097F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9011271C1F1A2C550059097F /* Info.plist */; };
+		9011276F1F1A2C560059097F /* CalendarConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011271D1F1A2C550059097F /* CalendarConfigViewController.swift */; };
+		901127701F1A2C560059097F /* DelegateAppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011271E1F1A2C550059097F /* DelegateAppearanceViewController.swift */; };
+		901127711F1A2C560059097F /* DIYCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011271F1F1A2C550059097F /* DIYCalendarCell.swift */; };
+		901127721F1A2C560059097F /* DIYExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127201F1A2C550059097F /* DIYExampleViewController.swift */; };
+		901127731F1A2C560059097F /* FSCalendarScopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127211F1A2C550059097F /* FSCalendarScopeViewController.swift */; };
+		901127741F1A2C560059097F /* InterfaceBuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127221F1A2C550059097F /* InterfaceBuilderViewController.swift */; };
+		901127751F1A2C560059097F /* LoadViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127231F1A2C550059097F /* LoadViewExampleViewController.swift */; };
+		901127761F1A2C560059097F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127241F1A2C550059097F /* TableViewController.swift */; };
+		901127771F1A2C560059097F /* Agreement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127271F1A2C550059097F /* Agreement.swift */; };
+		901127781F1A2C560059097F /* CarCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127281F1A2C550059097F /* CarCategoryView.swift */; };
+		901127791F1A2C560059097F /* CarPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127291F1A2C550059097F /* CarPlacement.swift */; };
+		9011277A1F1A2C560059097F /* ChooseCarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011272A1F1A2C550059097F /* ChooseCarType.swift */; };
+		9011277B1F1A2C560059097F /* ChooseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011272B1F1A2C550059097F /* ChooseType.swift */; };
+		9011277C1F1A2C560059097F /* Inroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011272C1F1A2C550059097F /* Inroduction.swift */; };
+		9011277D1F1A2C560059097F /* LogInCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011272D1F1A2C550059097F /* LogInCustomer.swift */; };
+		9011277E1F1A2C560059097F /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011272E1F1A2C550059097F /* PopUpViewController.swift */; };
+		9011277F1F1A2C560059097F /* SetCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011272F1F1A2C550059097F /* SetCoordinates.swift */; };
+		901127801F1A2C560059097F /* SMSVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127301F1A2C550059097F /* SMSVerification.swift */; };
+		901127811F1A2C560059097F /* TargetLocationOnMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127311F1A2C550059097F /* TargetLocationOnMap.swift */; };
+		901127821F1A2C560059097F /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127331F1A2C550059097F /* CarCell.swift */; };
+		901127831F1A2C560059097F /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127341F1A2C550059097F /* CarData.swift */; };
+		901127841F1A2C560059097F /* CarShort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127351F1A2C550059097F /* CarShort.swift */; };
+		901127851F1A2C560059097F /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127361F1A2C550059097F /* Details.swift */; };
+		901127861F1A2C560059097F /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127371F1A2C550059097F /* OfferCell.swift */; };
+		901127871F1A2C560059097F /* OrderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127381F1A2C550059097F /* OrderData.swift */; };
+		901127881F1A2C560059097F /* Publication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127391F1A2C550059097F /* Publication.swift */; };
+		901127891F1A2C560059097F /* PublicationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011273A1F1A2C550059097F /* PublicationCell.swift */; };
+		9011278A1F1A2C560059097F /* PublicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011273B1F1A2C550059097F /* PublicationData.swift */; };
+		9011278B1F1A2C560059097F /* SendLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011273C1F1A2C550059097F /* SendLocation.swift */; };
+		9011278C1F1A2C560059097F /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011273D1F1A2C550059097F /* Singleton.swift */; };
+		9011278D1F1A2C560059097F /* TypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011273E1F1A2C550059097F /* TypeCell.swift */; };
+		9011278E1F1A2C560059097F /* VSMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011273F1F1A2C550059097F /* VSMapView.swift */; };
+		9011278F1F1A2C560059097F /* AddPublication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127411F1A2C550059097F /* AddPublication.swift */; };
+		901127901F1A2C560059097F /* CarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127421F1A2C550059097F /* CarDetails.swift */; };
+		901127911F1A2C560059097F /* CarFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127431F1A2C550059097F /* CarFilter.swift */; };
+		901127921F1A2C560059097F /* CarInfoWithoutCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127441F1A2C550059097F /* CarInfoWithoutCalendar.swift */; };
+		901127931F1A2C560059097F /* DriverDateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127451F1A2C550059097F /* DriverDateInfo.swift */; };
+		901127941F1A2C560059097F /* MyOrdersForCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127461F1A2C550059097F /* MyOrdersForCustomer.swift */; };
+		901127951F1A2C560059097F /* NearCarMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127471F1A2C550059097F /* NearCarMap.swift */; };
+		901127961F1A2C560059097F /* NearList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127481F1A2C550059097F /* NearList.swift */; };
+		901127971F1A2C560059097F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127491F1A2C550059097F /* Settings.swift */; };
+		901127981F1A2C560059097F /* SignInCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011274A1F1A2C550059097F /* SignInCustomer.swift */; };
+		901127991F1A2C560059097F /* AddOrderForDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011274C1F1A2C550059097F /* AddOrderForDriver.swift */; };
+		9011279A1F1A2C560059097F /* DateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011274D1F1A2C550059097F /* DateInfo.swift */; };
+		9011279B1F1A2C560059097F /* DriverSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011274E1F1A2C550059097F /* DriverSettings.swift */; };
+		9011279C1F1A2C560059097F /* getIncome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9011274F1F1A2C550059097F /* getIncome.swift */; };
+		9011279D1F1A2C560059097F /* MyCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127501F1A2C550059097F /* MyCalendar.swift */; };
+		9011279E1F1A2C560059097F /* OrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127511F1A2C550059097F /* OrderDetails.swift */; };
+		9011279F1F1A2C560059097F /* OrderListForDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127521F1A2C550059097F /* OrderListForDriver.swift */; };
+		901127A01F1A2C560059097F /* SetImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127531F1A2C550059097F /* SetImages.swift */; };
+		901127A11F1A2C560059097F /* SignInDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127541F1A2C550059097F /* SignInDriver.swift */; };
+		901127A21F1A2C560059097F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 901127551F1A2C550059097F /* Info.plist */; };
+		901127A31F1A2C560059097F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901127581F1A2C550059097F /* ViewController.swift */; };
+		901127E61F1C96110059097F /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127AA1F1C96110059097F /* A.png */; };
+		901127E71F1C96110059097F /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127AB1F1C96110059097F /* B.png */; };
+		901127E81F1C96110059097F /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127AC1F1C96110059097F /* backButton.png */; };
+		901127E91F1C96110059097F /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127AD1F1C96110059097F /* calendar.png */; };
+		901127EA1F1C96110059097F /* call_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127AE1F1C96110059097F /* call_icon.png */; };
+		901127EB1F1C96110059097F /* callButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127AF1F1C96110059097F /* callButton.png */; };
+		901127EC1F1C96110059097F /* camera_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127B01F1C96110059097F /* camera_icon.png */; };
+		901127ED1F1C96110059097F /* car_icon_for_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127B11F1C96110059097F /* car_icon_for_map.png */; };
+		901127EE1F1C96110059097F /* car_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127B21F1C96110059097F /* car_icon.png */; };
+		901127EF1F1C96110059097F /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127B31F1C96110059097F /* car.png */; };
+		901127F01F1C96110059097F /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127B41F1C96110059097F /* check.png */; };
+		901127F11F1C96110059097F /* checkBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127B51F1C96110059097F /* checkBlack.png */; };
+		901127F21F1C96110059097F /* Checked.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 901127B61F1C96110059097F /* Checked.jpeg */; };
+		901127F31F1C96110059097F /* circle_mask_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127B71F1C96110059097F /* circle_mask_blue.png */; };
+		901127F41F1C96110059097F /* circle_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127B81F1C96110059097F /* circle_orange.png */; };
+		901127F51F1C96110059097F /* date.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127B91F1C96110059097F /* date.png */; };
+		901127F61F1C96110059097F /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127BA1F1C96110059097F /* done.png */; };
+		901127F71F1C96110059097F /* DriverInro_black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 901127BB1F1C96110059097F /* DriverInro_black.jpg */; };
+		901127F81F1C96110059097F /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127BC1F1C96110059097F /* empty.png */; };
+		901127F91F1C96110059097F /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127BD1F1C96110059097F /* error.png */; };
+		901127FA1F1C96110059097F /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127BE1F1C96110059097F /* filter.png */; };
+		901127FB1F1C96110059097F /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127BF1F1C96110059097F /* help.png */; };
+		901127FC1F1C96110059097F /* husan-ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127C01F1C96110059097F /* husan-ios.png */; };
+		901127FD1F1C96110059097F /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127C11F1C96110059097F /* Icon-App-20x20@2x.png */; };
+		901127FE1F1C96110059097F /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127C21F1C96110059097F /* Icon-App-20x20@3x.png */; };
+		901127FF1F1C96110059097F /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127C31F1C96110059097F /* Icon-App-29x29@2x.png */; };
+		901128001F1C96110059097F /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127C41F1C96110059097F /* Icon-App-29x29@3x.png */; };
+		901128011F1C96110059097F /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127C51F1C96110059097F /* Icon-App-40x40@2x.png */; };
+		901128021F1C96110059097F /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127C61F1C96110059097F /* Icon-App-40x40@3x.png */; };
+		901128031F1C96110059097F /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127C71F1C96110059097F /* Icon-App-60x60@2x.png */; };
+		901128041F1C96110059097F /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127C81F1C96110059097F /* Icon-App-60x60@3x.png */; };
+		901128051F1C96120059097F /* image_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127C91F1C96110059097F /* image_placeholder.png */; };
+		901128061F1C96120059097F /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127CA1F1C96110059097F /* info.png */; };
+		901128071F1C96120059097F /* inProcess.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127CB1F1C96110059097F /* inProcess.png */; };
+		901128081F1C96120059097F /* Inrodaction_Image_black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 901127CC1F1C96110059097F /* Inrodaction_Image_black.jpg */; };
+		901128091F1C96120059097F /* length_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127CD1F1C96110059097F /* length_icon.png */; };
+		9011280A1F1C96120059097F /* list_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127CE1F1C96110059097F /* list_icon.png */; };
+		9011280B1F1C96120059097F /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127CF1F1C96110059097F /* list.png */; };
+		9011280C1F1C96120059097F /* location_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127D01F1C96110059097F /* location_black.png */; };
+		9011280D1F1C96120059097F /* location_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127D11F1C96110059097F /* location_grey.png */; };
+		9011280E1F1C96120059097F /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127D21F1C96110059097F /* location.png */; };
+		9011280F1F1C96120059097F /* LongRectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127D31F1C96110059097F /* LongRectangle.png */; };
+		901128101F1C96120059097F /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127D41F1C96110059097F /* map.png */; };
+		901128111F1C96120059097F /* myPubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127D51F1C96110059097F /* myPubs.png */; };
+		901128121F1C96120059097F /* nearest.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127D61F1C96110059097F /* nearest.png */; };
+		901128131F1C96120059097F /* number.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127D71F1C96110059097F /* number.png */; };
+		901128141F1C96120059097F /* offer_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127D81F1C96110059097F /* offer_icon.png */; };
+		901128151F1C96120059097F /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 901127D91F1C96110059097F /* placeholder.jpg */; };
+		901128161F1C96120059097F /* rectangle_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127DA1F1C96110059097F /* rectangle_grey.png */; };
+		901128171F1C96120059097F /* rectangle_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127DB1F1C96110059097F /* rectangle_orange.png */; };
+		901128181F1C96120059097F /* rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127DC1F1C96110059097F /* rectangle.png */; };
+		901128191F1C96120059097F /* setting_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127DD1F1C96110059097F /* setting_white.png */; };
+		9011281A1F1C96120059097F /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127DE1F1C96110059097F /* setting.png */; };
+		9011281B1F1C96120059097F /* star-gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127DF1F1C96110059097F /* star-gold.png */; };
+		9011281C1F1C96120059097F /* star-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127E01F1C96110059097F /* star-grey.png */; };
+		9011281D1F1C96120059097F /* trackLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127E11F1C96110059097F /* trackLocation.png */; };
+		9011281E1F1C96120059097F /* Unchecked.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 901127E21F1C96110059097F /* Unchecked.jpeg */; };
+		9011281F1F1C96120059097F /* user_icon_whte.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127E31F1C96110059097F /* user_icon_whte.png */; };
+		901128201F1C96120059097F /* user_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 901127E41F1C96110059097F /* user_icon.png */; };
+		901128211F1C96120059097F /* UserIntro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 901127E51F1C96110059097F /* UserIntro.jpeg */; };
+		AB32BEDCF5DDD93ADEB1D20F /* Pods_Limuzin24.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B420140878A5D59B3F0620 /* Pods_Limuzin24.framework */; };
+		BFDE3134FBB19A15D1ED69A3 /* Pods_Limuzin24Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED6E83CAA15B49E4C646284 /* Pods_Limuzin24Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		901126291F1A27C90059097F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90AFCF181E979256009A0F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 901126141F1A27C90059097F;
+			remoteInfo = Limuzin24;
+		};
+		901126341F1A27C90059097F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90AFCF181E979256009A0F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 901126141F1A27C90059097F;
+			remoteInfo = Limuzin24;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B7D4590A52714B7C2F85993 /* Pods-Limuzin24.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limuzin24.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Limuzin24/Pods-Limuzin24.debug.xcconfig"; sourceTree = "<group>"; };
+		3447278AF4D76D958EEC1EEA /* Pods_Limuzin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limuzin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		381256BADE94C5E61FFA6150 /* Pods-Limuzin24UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limuzin24UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Limuzin24UITests/Pods-Limuzin24UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3999AEFA5953F0842F61356B /* Pods-Truck24Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truck24Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Truck24Tests/Pods-Truck24Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		427F227C2C22A6B817D612B5 /* Pods-Limuzin24.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limuzin24.release.xcconfig"; path = "Pods/Target Support Files/Pods-Limuzin24/Pods-Limuzin24.release.xcconfig"; sourceTree = "<group>"; };
+		4B495AFFB14C9FA0321DAD2D /* Pods-Truck24UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truck24UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Truck24UITests/Pods-Truck24UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		503737B1FBBE102A086D567F /* Pods_Limuzin24UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limuzin24UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5343AA3BEA708F5EE07961AF /* Pods_Truck24.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truck24.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E040B4ABE541418C3792C8 /* Pods-LimuzinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimuzinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LimuzinUITests/Pods-LimuzinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56EAE7ED2118DC9869768509 /* Pods_Truck24UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truck24UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6728818A7851135F3390BEF4 /* Pods-Truck24Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truck24Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Truck24Tests/Pods-Truck24Tests.release.xcconfig"; sourceTree = "<group>"; };
+		68295E7C789E0BDF8670B40A /* Pods-Limuzin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limuzin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Limuzin/Pods-Limuzin.debug.xcconfig"; sourceTree = "<group>"; };
+		72D3BB73EC1839040109BC3C /* Pods-LimuzinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimuzinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LimuzinTests/Pods-LimuzinTests.release.xcconfig"; sourceTree = "<group>"; };
+		75DBF2711A6EEA24C1B3D073 /* Pods_LimuzinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LimuzinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E215DC4E4F0CC5D66156B8C /* Pods-Limuzin24UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limuzin24UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Limuzin24UITests/Pods-Limuzin24UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EECAA1D2729C1B275211F5E /* Pods-Limuzin24Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limuzin24Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Limuzin24Tests/Pods-Limuzin24Tests.release.xcconfig"; sourceTree = "<group>"; };
+		901126151F1A27C90059097F /* Limuzin24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Limuzin24.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		901126281F1A27C90059097F /* Limuzin24Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Limuzin24Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9011262C1F1A27C90059097F /* Limuzin24Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Limuzin24Tests.swift; sourceTree = "<group>"; };
+		9011262E1F1A27C90059097F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901126331F1A27C90059097F /* Limuzin24UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Limuzin24UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		901126371F1A27C90059097F /* Limuzin24UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Limuzin24UITests.swift; sourceTree = "<group>"; };
+		901126391F1A27C90059097F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901126F11F1A2C550059097F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		901126F21F1A2C550059097F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		901126F51F1A2C550059097F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		901126F71F1A2C550059097F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		901126F91F1A2C550059097F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Main.strings; sourceTree = "<group>"; };
+		901126FC1F1A2C550059097F /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
+		901126FD1F1A2C550059097F /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
+		901126FE1F1A2C550059097F /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
+		901126FF1F1A2C550059097F /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
+		901127001F1A2C550059097F /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
+		901127011F1A2C550059097F /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCalculator.h; sourceTree = "<group>"; };
+		901127021F1A2C550059097F /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCalculator.m; sourceTree = "<group>"; };
+		901127031F1A2C550059097F /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
+		901127041F1A2C550059097F /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
+		901127051F1A2C550059097F /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		901127061F1A2C550059097F /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		901127071F1A2C550059097F /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		901127081F1A2C550059097F /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		901127091F1A2C550059097F /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstants.h; sourceTree = "<group>"; };
+		9011270A1F1A2C550059097F /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstants.m; sourceTree = "<group>"; };
+		9011270B1F1A2C550059097F /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		9011270C1F1A2C550059097F /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		9011270D1F1A2C550059097F /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		9011270E1F1A2C550059097F /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		9011270F1F1A2C550059097F /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		901127101F1A2C550059097F /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarExtensions.h; sourceTree = "<group>"; };
+		901127111F1A2C550059097F /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarExtensions.m; sourceTree = "<group>"; };
+		901127121F1A2C550059097F /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		901127131F1A2C550059097F /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		901127141F1A2C550059097F /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarScopeHandle.h; sourceTree = "<group>"; };
+		901127151F1A2C550059097F /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarScopeHandle.m; sourceTree = "<group>"; };
+		901127161F1A2C550059097F /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		901127171F1A2C550059097F /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		901127181F1A2C550059097F /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		901127191F1A2C550059097F /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		9011271A1F1A2C550059097F /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		9011271B1F1A2C550059097F /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		9011271C1F1A2C550059097F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9011271D1F1A2C550059097F /* CalendarConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarConfigViewController.swift; sourceTree = "<group>"; };
+		9011271E1F1A2C550059097F /* DelegateAppearanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateAppearanceViewController.swift; sourceTree = "<group>"; };
+		9011271F1F1A2C550059097F /* DIYCalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYCalendarCell.swift; sourceTree = "<group>"; };
+		901127201F1A2C550059097F /* DIYExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYExampleViewController.swift; sourceTree = "<group>"; };
+		901127211F1A2C550059097F /* FSCalendarScopeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCalendarScopeViewController.swift; sourceTree = "<group>"; };
+		901127221F1A2C550059097F /* InterfaceBuilderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceBuilderViewController.swift; sourceTree = "<group>"; };
+		901127231F1A2C550059097F /* LoadViewExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadViewExampleViewController.swift; sourceTree = "<group>"; };
+		901127241F1A2C550059097F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		901127271F1A2C550059097F /* Agreement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agreement.swift; sourceTree = "<group>"; };
+		901127281F1A2C550059097F /* CarCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCategoryView.swift; sourceTree = "<group>"; };
+		901127291F1A2C550059097F /* CarPlacement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPlacement.swift; sourceTree = "<group>"; };
+		9011272A1F1A2C550059097F /* ChooseCarType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseCarType.swift; sourceTree = "<group>"; };
+		9011272B1F1A2C550059097F /* ChooseType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseType.swift; sourceTree = "<group>"; };
+		9011272C1F1A2C550059097F /* Inroduction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inroduction.swift; sourceTree = "<group>"; };
+		9011272D1F1A2C550059097F /* LogInCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInCustomer.swift; sourceTree = "<group>"; };
+		9011272E1F1A2C550059097F /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		9011272F1F1A2C550059097F /* SetCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetCoordinates.swift; sourceTree = "<group>"; };
+		901127301F1A2C550059097F /* SMSVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSVerification.swift; sourceTree = "<group>"; };
+		901127311F1A2C550059097F /* TargetLocationOnMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetLocationOnMap.swift; sourceTree = "<group>"; };
+		901127331F1A2C550059097F /* CarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		901127341F1A2C550059097F /* CarData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
+		901127351F1A2C550059097F /* CarShort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarShort.swift; sourceTree = "<group>"; };
+		901127361F1A2C550059097F /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		901127371F1A2C550059097F /* OfferCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		901127381F1A2C550059097F /* OrderData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderData.swift; sourceTree = "<group>"; };
+		901127391F1A2C550059097F /* Publication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publication.swift; sourceTree = "<group>"; };
+		9011273A1F1A2C550059097F /* PublicationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicationCell.swift; sourceTree = "<group>"; };
+		9011273B1F1A2C550059097F /* PublicationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicationData.swift; sourceTree = "<group>"; };
+		9011273C1F1A2C550059097F /* SendLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendLocation.swift; sourceTree = "<group>"; };
+		9011273D1F1A2C550059097F /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		9011273E1F1A2C550059097F /* TypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeCell.swift; sourceTree = "<group>"; };
+		9011273F1F1A2C550059097F /* VSMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSMapView.swift; sourceTree = "<group>"; };
+		901127411F1A2C550059097F /* AddPublication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPublication.swift; sourceTree = "<group>"; };
+		901127421F1A2C550059097F /* CarDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetails.swift; sourceTree = "<group>"; };
+		901127431F1A2C550059097F /* CarFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarFilter.swift; sourceTree = "<group>"; };
+		901127441F1A2C550059097F /* CarInfoWithoutCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInfoWithoutCalendar.swift; sourceTree = "<group>"; };
+		901127451F1A2C550059097F /* DriverDateInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverDateInfo.swift; sourceTree = "<group>"; };
+		901127461F1A2C550059097F /* MyOrdersForCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrdersForCustomer.swift; sourceTree = "<group>"; };
+		901127471F1A2C550059097F /* NearCarMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearCarMap.swift; sourceTree = "<group>"; };
+		901127481F1A2C550059097F /* NearList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearList.swift; sourceTree = "<group>"; };
+		901127491F1A2C550059097F /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9011274A1F1A2C550059097F /* SignInCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInCustomer.swift; sourceTree = "<group>"; };
+		9011274C1F1A2C550059097F /* AddOrderForDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrderForDriver.swift; sourceTree = "<group>"; };
+		9011274D1F1A2C550059097F /* DateInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateInfo.swift; sourceTree = "<group>"; };
+		9011274E1F1A2C550059097F /* DriverSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverSettings.swift; sourceTree = "<group>"; };
+		9011274F1F1A2C550059097F /* getIncome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getIncome.swift; sourceTree = "<group>"; };
+		901127501F1A2C550059097F /* MyCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCalendar.swift; sourceTree = "<group>"; };
+		901127511F1A2C550059097F /* OrderDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetails.swift; sourceTree = "<group>"; };
+		901127521F1A2C550059097F /* OrderListForDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderListForDriver.swift; sourceTree = "<group>"; };
+		901127531F1A2C550059097F /* SetImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetImages.swift; sourceTree = "<group>"; };
+		901127541F1A2C550059097F /* SignInDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInDriver.swift; sourceTree = "<group>"; };
+		901127551F1A2C550059097F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901127581F1A2C550059097F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		901127A71F1A35700059097F /* Limuzin-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Limuzin-Bridging-Header.h"; sourceTree = "<group>"; };
+		901127A81F1A35700059097F /* Limuzin24-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Limuzin24-Bridging-Header.h"; sourceTree = "<group>"; };
+		901127AA1F1C96110059097F /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = A.png; path = Cach/A.png; sourceTree = SOURCE_ROOT; };
+		901127AB1F1C96110059097F /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = B.png; path = Cach/B.png; sourceTree = SOURCE_ROOT; };
+		901127AC1F1C96110059097F /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButton.png; path = Cach/backButton.png; sourceTree = SOURCE_ROOT; };
+		901127AD1F1C96110059097F /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = Cach/calendar.png; sourceTree = SOURCE_ROOT; };
+		901127AE1F1C96110059097F /* call_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = call_icon.png; path = Cach/call_icon.png; sourceTree = SOURCE_ROOT; };
+		901127AF1F1C96110059097F /* callButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = callButton.png; path = Cach/callButton.png; sourceTree = SOURCE_ROOT; };
+		901127B01F1C96110059097F /* camera_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera_icon.png; path = Cach/camera_icon.png; sourceTree = SOURCE_ROOT; };
+		901127B11F1C96110059097F /* car_icon_for_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_icon_for_map.png; path = Cach/car_icon_for_map.png; sourceTree = SOURCE_ROOT; };
+		901127B21F1C96110059097F /* car_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car_icon.png; path = Cach/car_icon.png; sourceTree = SOURCE_ROOT; };
+		901127B31F1C96110059097F /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = Cach/car.png; sourceTree = SOURCE_ROOT; };
+		901127B41F1C96110059097F /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.png; path = Cach/check.png; sourceTree = SOURCE_ROOT; };
+		901127B51F1C96110059097F /* checkBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkBlack.png; path = Cach/checkBlack.png; sourceTree = SOURCE_ROOT; };
+		901127B61F1C96110059097F /* Checked.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Checked.jpeg; path = Cach/Checked.jpeg; sourceTree = SOURCE_ROOT; };
+		901127B71F1C96110059097F /* circle_mask_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle_mask_blue.png; path = Cach/circle_mask_blue.png; sourceTree = SOURCE_ROOT; };
+		901127B81F1C96110059097F /* circle_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle_orange.png; path = Cach/circle_orange.png; sourceTree = SOURCE_ROOT; };
+		901127B91F1C96110059097F /* date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = date.png; path = Cach/date.png; sourceTree = SOURCE_ROOT; };
+		901127BA1F1C96110059097F /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = done.png; path = Cach/done.png; sourceTree = SOURCE_ROOT; };
+		901127BB1F1C96110059097F /* DriverInro_black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DriverInro_black.jpg; path = Cach/DriverInro_black.jpg; sourceTree = SOURCE_ROOT; };
+		901127BC1F1C96110059097F /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = empty.png; path = Cach/empty.png; sourceTree = SOURCE_ROOT; };
+		901127BD1F1C96110059097F /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = Cach/error.png; sourceTree = SOURCE_ROOT; };
+		901127BE1F1C96110059097F /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = filter.png; path = Cach/filter.png; sourceTree = SOURCE_ROOT; };
+		901127BF1F1C96110059097F /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = Cach/help.png; sourceTree = SOURCE_ROOT; };
+		901127C01F1C96110059097F /* husan-ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "husan-ios.png"; path = "Cach/husan-ios.png"; sourceTree = SOURCE_ROOT; };
+		901127C11F1C96110059097F /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-20x20@2x.png"; path = "Cach/Icon-App-20x20@2x.png"; sourceTree = SOURCE_ROOT; };
+		901127C21F1C96110059097F /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-20x20@3x.png"; path = "Cach/Icon-App-20x20@3x.png"; sourceTree = SOURCE_ROOT; };
+		901127C31F1C96110059097F /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@2x.png"; path = "Cach/Icon-App-29x29@2x.png"; sourceTree = SOURCE_ROOT; };
+		901127C41F1C96110059097F /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@3x.png"; path = "Cach/Icon-App-29x29@3x.png"; sourceTree = SOURCE_ROOT; };
+		901127C51F1C96110059097F /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@2x.png"; path = "Cach/Icon-App-40x40@2x.png"; sourceTree = SOURCE_ROOT; };
+		901127C61F1C96110059097F /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@3x.png"; path = "Cach/Icon-App-40x40@3x.png"; sourceTree = SOURCE_ROOT; };
+		901127C71F1C96110059097F /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@2x.png"; path = "Cach/Icon-App-60x60@2x.png"; sourceTree = SOURCE_ROOT; };
+		901127C81F1C96110059097F /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@3x.png"; path = "Cach/Icon-App-60x60@3x.png"; sourceTree = SOURCE_ROOT; };
+		901127C91F1C96110059097F /* image_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_placeholder.png; path = Cach/image_placeholder.png; sourceTree = SOURCE_ROOT; };
+		901127CA1F1C96110059097F /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = Cach/info.png; sourceTree = SOURCE_ROOT; };
+		901127CB1F1C96110059097F /* inProcess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inProcess.png; path = Cach/inProcess.png; sourceTree = SOURCE_ROOT; };
+		901127CC1F1C96110059097F /* Inrodaction_Image_black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Inrodaction_Image_black.jpg; path = Cach/Inrodaction_Image_black.jpg; sourceTree = SOURCE_ROOT; };
+		901127CD1F1C96110059097F /* length_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = length_icon.png; path = Cach/length_icon.png; sourceTree = SOURCE_ROOT; };
+		901127CE1F1C96110059097F /* list_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_icon.png; path = Cach/list_icon.png; sourceTree = SOURCE_ROOT; };
+		901127CF1F1C96110059097F /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list.png; path = Cach/list.png; sourceTree = SOURCE_ROOT; };
+		901127D01F1C96110059097F /* location_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location_black.png; path = Cach/location_black.png; sourceTree = SOURCE_ROOT; };
+		901127D11F1C96110059097F /* location_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location_grey.png; path = Cach/location_grey.png; sourceTree = SOURCE_ROOT; };
+		901127D21F1C96110059097F /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = Cach/location.png; sourceTree = SOURCE_ROOT; };
+		901127D31F1C96110059097F /* LongRectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LongRectangle.png; path = Cach/LongRectangle.png; sourceTree = SOURCE_ROOT; };
+		901127D41F1C96110059097F /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = Cach/map.png; sourceTree = SOURCE_ROOT; };
+		901127D51F1C96110059097F /* myPubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myPubs.png; path = Cach/myPubs.png; sourceTree = SOURCE_ROOT; };
+		901127D61F1C96110059097F /* nearest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nearest.png; path = Cach/nearest.png; sourceTree = SOURCE_ROOT; };
+		901127D71F1C96110059097F /* number.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number.png; path = Cach/number.png; sourceTree = SOURCE_ROOT; };
+		901127D81F1C96110059097F /* offer_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = offer_icon.png; path = Cach/offer_icon.png; sourceTree = SOURCE_ROOT; };
+		901127D91F1C96110059097F /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = placeholder.jpg; path = Cach/placeholder.jpg; sourceTree = SOURCE_ROOT; };
+		901127DA1F1C96110059097F /* rectangle_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectangle_grey.png; path = Cach/rectangle_grey.png; sourceTree = SOURCE_ROOT; };
+		901127DB1F1C96110059097F /* rectangle_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectangle_orange.png; path = Cach/rectangle_orange.png; sourceTree = SOURCE_ROOT; };
+		901127DC1F1C96110059097F /* rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectangle.png; path = Cach/rectangle.png; sourceTree = SOURCE_ROOT; };
+		901127DD1F1C96110059097F /* setting_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setting_white.png; path = Cach/setting_white.png; sourceTree = SOURCE_ROOT; };
+		901127DE1F1C96110059097F /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setting.png; path = Cach/setting.png; sourceTree = SOURCE_ROOT; };
+		901127DF1F1C96110059097F /* star-gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star-gold.png"; path = "Cach/star-gold.png"; sourceTree = SOURCE_ROOT; };
+		901127E01F1C96110059097F /* star-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star-grey.png"; path = "Cach/star-grey.png"; sourceTree = SOURCE_ROOT; };
+		901127E11F1C96110059097F /* trackLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trackLocation.png; path = Cach/trackLocation.png; sourceTree = SOURCE_ROOT; };
+		901127E21F1C96110059097F /* Unchecked.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unchecked.jpeg; path = Cach/Unchecked.jpeg; sourceTree = SOURCE_ROOT; };
+		901127E31F1C96110059097F /* user_icon_whte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_icon_whte.png; path = Cach/user_icon_whte.png; sourceTree = SOURCE_ROOT; };
+		901127E41F1C96110059097F /* user_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_icon.png; path = Cach/user_icon.png; sourceTree = SOURCE_ROOT; };
+		901127E51F1C96110059097F /* UserIntro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UserIntro.jpeg; path = Cach/UserIntro.jpeg; sourceTree = SOURCE_ROOT; };
+		90AFCF381E979256009A0F67 /* Truck24Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truck24Tests.swift; sourceTree = "<group>"; };
+		90AFCF3A1E979256009A0F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90AFCF431E979256009A0F67 /* Truck24UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truck24UITests.swift; sourceTree = "<group>"; };
+		90AFCF451E979256009A0F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B420140878A5D59B3F0620 /* Pods_Limuzin24.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limuzin24.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82EC53AB92E4F77AE240F95 /* Pods-Limuzin24Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limuzin24Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Limuzin24Tests/Pods-Limuzin24Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF38658E0CB8BB61DCEB6B24 /* Pods_Truck24Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truck24Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE5331613BDF0F8BFF2E050 /* Pods-LimuzinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimuzinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LimuzinTests/Pods-LimuzinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D670957621851D84B942FDFC /* Pods-LimuzinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LimuzinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LimuzinUITests/Pods-LimuzinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7AEF2B43F132423408995C4 /* Pods-Truck24.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truck24.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Truck24/Pods-Truck24.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E28E72C23EE09383E0437F /* Pods-Limuzin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Limuzin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Limuzin/Pods-Limuzin.release.xcconfig"; sourceTree = "<group>"; };
+		EED6E83CAA15B49E4C646284 /* Pods_Limuzin24Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Limuzin24Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A57B0B10265B51B5ECE931 /* Pods-Truck24.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truck24.release.xcconfig"; path = "Pods/Target Support Files/Pods-Truck24/Pods-Truck24.release.xcconfig"; sourceTree = "<group>"; };
+		F34311E8F803B283166D564C /* Pods-Truck24UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truck24UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Truck24UITests/Pods-Truck24UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F897682A8F6C14E52DC4C428 /* Pods_LimuzinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LimuzinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		901126121F1A27C90059097F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB32BEDCF5DDD93ADEB1D20F /* Pods_Limuzin24.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901126251F1A27C90059097F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDE3134FBB19A15D1ED69A3 /* Pods_Limuzin24Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901126301F1A27C90059097F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBA87D7081B831BD37BB987 /* Pods_Limuzin24UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D490820EBCDD834CB272E28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7AEF2B43F132423408995C4 /* Pods-Truck24.debug.xcconfig */,
+				F0A57B0B10265B51B5ECE931 /* Pods-Truck24.release.xcconfig */,
+				3999AEFA5953F0842F61356B /* Pods-Truck24Tests.debug.xcconfig */,
+				6728818A7851135F3390BEF4 /* Pods-Truck24Tests.release.xcconfig */,
+				4B495AFFB14C9FA0321DAD2D /* Pods-Truck24UITests.debug.xcconfig */,
+				F34311E8F803B283166D564C /* Pods-Truck24UITests.release.xcconfig */,
+				68295E7C789E0BDF8670B40A /* Pods-Limuzin.debug.xcconfig */,
+				D7E28E72C23EE09383E0437F /* Pods-Limuzin.release.xcconfig */,
+				CFE5331613BDF0F8BFF2E050 /* Pods-LimuzinTests.debug.xcconfig */,
+				72D3BB73EC1839040109BC3C /* Pods-LimuzinTests.release.xcconfig */,
+				54E040B4ABE541418C3792C8 /* Pods-LimuzinUITests.debug.xcconfig */,
+				D670957621851D84B942FDFC /* Pods-LimuzinUITests.release.xcconfig */,
+				0B7D4590A52714B7C2F85993 /* Pods-Limuzin24.debug.xcconfig */,
+				427F227C2C22A6B817D612B5 /* Pods-Limuzin24.release.xcconfig */,
+				B82EC53AB92E4F77AE240F95 /* Pods-Limuzin24Tests.debug.xcconfig */,
+				8EECAA1D2729C1B275211F5E /* Pods-Limuzin24Tests.release.xcconfig */,
+				381256BADE94C5E61FFA6150 /* Pods-Limuzin24UITests.debug.xcconfig */,
+				7E215DC4E4F0CC5D66156B8C /* Pods-Limuzin24UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		879EF0C7B9E9BA600BF32E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5343AA3BEA708F5EE07961AF /* Pods_Truck24.framework */,
+				CF38658E0CB8BB61DCEB6B24 /* Pods_Truck24Tests.framework */,
+				56EAE7ED2118DC9869768509 /* Pods_Truck24UITests.framework */,
+				3447278AF4D76D958EEC1EEA /* Pods_Limuzin.framework */,
+				F897682A8F6C14E52DC4C428 /* Pods_LimuzinTests.framework */,
+				75DBF2711A6EEA24C1B3D073 /* Pods_LimuzinUITests.framework */,
+				A1B420140878A5D59B3F0620 /* Pods_Limuzin24.framework */,
+				EED6E83CAA15B49E4C646284 /* Pods_Limuzin24Tests.framework */,
+				503737B1FBBE102A086D567F /* Pods_Limuzin24UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		901126161F1A27C90059097F /* Limuzin24 */ = {
+			isa = PBXGroup;
+			children = (
+				901127A71F1A35700059097F /* Limuzin-Bridging-Header.h */,
+				901127A81F1A35700059097F /* Limuzin24-Bridging-Header.h */,
+				901126F11F1A2C550059097F /* AppDelegate.swift */,
+				901126F21F1A2C550059097F /* Assets.xcassets */,
+				901126F31F1A2C550059097F /* Base.lproj */,
+				901127A91F1C95FD0059097F /* UI */,
+				901127251F1A2C550059097F /* Scripts */,
+				901126F61F1A2C550059097F /* Main.storyboard */,
+			);
+			path = Limuzin24;
+			sourceTree = "<group>";
+		};
+		9011262B1F1A27C90059097F /* Limuzin24Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9011262C1F1A27C90059097F /* Limuzin24Tests.swift */,
+				9011262E1F1A27C90059097F /* Info.plist */,
+			);
+			path = Limuzin24Tests;
+			sourceTree = "<group>";
+		};
+		901126361F1A27C90059097F /* Limuzin24UITests */ = {
+			isa = PBXGroup;
+			children = (
+				901126371F1A27C90059097F /* Limuzin24UITests.swift */,
+				901126391F1A27C90059097F /* Info.plist */,
+			);
+			path = Limuzin24UITests;
+			sourceTree = "<group>";
+		};
+		901126F31F1A2C550059097F /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				901126F41F1A2C550059097F /* LaunchScreen.storyboard */,
+				901126F81F1A2C550059097F /* Main.strings */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		901126FA1F1A2C550059097F /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				901126FB1F1A2C550059097F /* base */,
+				9011271D1F1A2C550059097F /* CalendarConfigViewController.swift */,
+				9011271E1F1A2C550059097F /* DelegateAppearanceViewController.swift */,
+				9011271F1F1A2C550059097F /* DIYCalendarCell.swift */,
+				901127201F1A2C550059097F /* DIYExampleViewController.swift */,
+				901127211F1A2C550059097F /* FSCalendarScopeViewController.swift */,
+				901127221F1A2C550059097F /* InterfaceBuilderViewController.swift */,
+				901127231F1A2C550059097F /* LoadViewExampleViewController.swift */,
+				901127241F1A2C550059097F /* TableViewController.swift */,
+			);
+			name = calendar;
+			path = ../calendar;
+			sourceTree = "<group>";
+		};
+		901126FB1F1A2C550059097F /* base */ = {
+			isa = PBXGroup;
+			children = (
+				901126FC1F1A2C550059097F /* FSCalendar+Deprecated.m */,
+				901126FD1F1A2C550059097F /* FSCalendar.h */,
+				901126FE1F1A2C550059097F /* FSCalendar.m */,
+				901126FF1F1A2C550059097F /* FSCalendarAppearance.h */,
+				901127001F1A2C550059097F /* FSCalendarAppearance.m */,
+				901127011F1A2C550059097F /* FSCalendarCalculator.h */,
+				901127021F1A2C550059097F /* FSCalendarCalculator.m */,
+				901127031F1A2C550059097F /* FSCalendarCell.h */,
+				901127041F1A2C550059097F /* FSCalendarCell.m */,
+				901127051F1A2C550059097F /* FSCalendarCollectionView.h */,
+				901127061F1A2C550059097F /* FSCalendarCollectionView.m */,
+				901127071F1A2C550059097F /* FSCalendarCollectionViewLayout.h */,
+				901127081F1A2C550059097F /* FSCalendarCollectionViewLayout.m */,
+				901127091F1A2C550059097F /* FSCalendarConstants.h */,
+				9011270A1F1A2C550059097F /* FSCalendarConstants.m */,
+				9011270B1F1A2C550059097F /* FSCalendarDelegationFactory.h */,
+				9011270C1F1A2C550059097F /* FSCalendarDelegationFactory.m */,
+				9011270D1F1A2C550059097F /* FSCalendarDelegationProxy.h */,
+				9011270E1F1A2C550059097F /* FSCalendarDelegationProxy.m */,
+				9011270F1F1A2C550059097F /* FSCalendarDynamicHeader.h */,
+				901127101F1A2C550059097F /* FSCalendarExtensions.h */,
+				901127111F1A2C550059097F /* FSCalendarExtensions.m */,
+				901127121F1A2C550059097F /* FSCalendarHeaderView.h */,
+				901127131F1A2C550059097F /* FSCalendarHeaderView.m */,
+				901127141F1A2C550059097F /* FSCalendarScopeHandle.h */,
+				901127151F1A2C550059097F /* FSCalendarScopeHandle.m */,
+				901127161F1A2C550059097F /* FSCalendarStickyHeader.h */,
+				901127171F1A2C550059097F /* FSCalendarStickyHeader.m */,
+				901127181F1A2C550059097F /* FSCalendarTransitionCoordinator.h */,
+				901127191F1A2C550059097F /* FSCalendarTransitionCoordinator.m */,
+				9011271A1F1A2C550059097F /* FSCalendarWeekdayView.h */,
+				9011271B1F1A2C550059097F /* FSCalendarWeekdayView.m */,
+				9011271C1F1A2C550059097F /* Info.plist */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		901127251F1A2C550059097F /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				901126FA1F1A2C550059097F /* calendar */,
+				901127261F1A2C550059097F /* Common */,
+				901127321F1A2C550059097F /* Data */,
+				901127401F1A2C550059097F /* ForCustomer */,
+				9011274B1F1A2C550059097F /* ForDriver */,
+				901127551F1A2C550059097F /* Info.plist */,
+				901127581F1A2C550059097F /* ViewController.swift */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		901127261F1A2C550059097F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				901127271F1A2C550059097F /* Agreement.swift */,
+				901127281F1A2C550059097F /* CarCategoryView.swift */,
+				901127291F1A2C550059097F /* CarPlacement.swift */,
+				9011272A1F1A2C550059097F /* ChooseCarType.swift */,
+				9011272B1F1A2C550059097F /* ChooseType.swift */,
+				9011272C1F1A2C550059097F /* Inroduction.swift */,
+				9011272D1F1A2C550059097F /* LogInCustomer.swift */,
+				9011272E1F1A2C550059097F /* PopUpViewController.swift */,
+				9011272F1F1A2C550059097F /* SetCoordinates.swift */,
+				901127301F1A2C550059097F /* SMSVerification.swift */,
+				901127311F1A2C550059097F /* TargetLocationOnMap.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		901127321F1A2C550059097F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				901127331F1A2C550059097F /* CarCell.swift */,
+				901127341F1A2C550059097F /* CarData.swift */,
+				901127351F1A2C550059097F /* CarShort.swift */,
+				901127361F1A2C550059097F /* Details.swift */,
+				901127371F1A2C550059097F /* OfferCell.swift */,
+				901127381F1A2C550059097F /* OrderData.swift */,
+				901127391F1A2C550059097F /* Publication.swift */,
+				9011273A1F1A2C550059097F /* PublicationCell.swift */,
+				9011273B1F1A2C550059097F /* PublicationData.swift */,
+				9011273C1F1A2C550059097F /* SendLocation.swift */,
+				9011273D1F1A2C550059097F /* Singleton.swift */,
+				9011273E1F1A2C550059097F /* TypeCell.swift */,
+				9011273F1F1A2C550059097F /* VSMapView.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		901127401F1A2C550059097F /* ForCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				901127411F1A2C550059097F /* AddPublication.swift */,
+				901127421F1A2C550059097F /* CarDetails.swift */,
+				901127431F1A2C550059097F /* CarFilter.swift */,
+				901127441F1A2C550059097F /* CarInfoWithoutCalendar.swift */,
+				901127451F1A2C550059097F /* DriverDateInfo.swift */,
+				901127461F1A2C550059097F /* MyOrdersForCustomer.swift */,
+				901127471F1A2C550059097F /* NearCarMap.swift */,
+				901127481F1A2C550059097F /* NearList.swift */,
+				901127491F1A2C550059097F /* Settings.swift */,
+				9011274A1F1A2C550059097F /* SignInCustomer.swift */,
+			);
+			path = ForCustomer;
+			sourceTree = "<group>";
+		};
+		9011274B1F1A2C550059097F /* ForDriver */ = {
+			isa = PBXGroup;
+			children = (
+				9011274C1F1A2C550059097F /* AddOrderForDriver.swift */,
+				9011274D1F1A2C550059097F /* DateInfo.swift */,
+				9011274E1F1A2C550059097F /* DriverSettings.swift */,
+				9011274F1F1A2C550059097F /* getIncome.swift */,
+				901127501F1A2C550059097F /* MyCalendar.swift */,
+				901127511F1A2C550059097F /* OrderDetails.swift */,
+				901127521F1A2C550059097F /* OrderListForDriver.swift */,
+				901127531F1A2C550059097F /* SetImages.swift */,
+				901127541F1A2C550059097F /* SignInDriver.swift */,
+			);
+			path = ForDriver;
+			sourceTree = "<group>";
+		};
+		901127A91F1C95FD0059097F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				901127AA1F1C96110059097F /* A.png */,
+				901127AB1F1C96110059097F /* B.png */,
+				901127AC1F1C96110059097F /* backButton.png */,
+				901127AD1F1C96110059097F /* calendar.png */,
+				901127AE1F1C96110059097F /* call_icon.png */,
+				901127AF1F1C96110059097F /* callButton.png */,
+				901127B01F1C96110059097F /* camera_icon.png */,
+				901127B11F1C96110059097F /* car_icon_for_map.png */,
+				901127B21F1C96110059097F /* car_icon.png */,
+				901127B31F1C96110059097F /* car.png */,
+				901127B41F1C96110059097F /* check.png */,
+				901127B51F1C96110059097F /* checkBlack.png */,
+				901127B61F1C96110059097F /* Checked.jpeg */,
+				901127B71F1C96110059097F /* circle_mask_blue.png */,
+				901127B81F1C96110059097F /* circle_orange.png */,
+				901127B91F1C96110059097F /* date.png */,
+				901127BA1F1C96110059097F /* done.png */,
+				901127BB1F1C96110059097F /* DriverInro_black.jpg */,
+				901127BC1F1C96110059097F /* empty.png */,
+				901127BD1F1C96110059097F /* error.png */,
+				901127BE1F1C96110059097F /* filter.png */,
+				901127BF1F1C96110059097F /* help.png */,
+				901127C01F1C96110059097F /* husan-ios.png */,
+				901127C11F1C96110059097F /* Icon-App-20x20@2x.png */,
+				901127C21F1C96110059097F /* Icon-App-20x20@3x.png */,
+				901127C31F1C96110059097F /* Icon-App-29x29@2x.png */,
+				901127C41F1C96110059097F /* Icon-App-29x29@3x.png */,
+				901127C51F1C96110059097F /* Icon-App-40x40@2x.png */,
+				901127C61F1C96110059097F /* Icon-App-40x40@3x.png */,
+				901127C71F1C96110059097F /* Icon-App-60x60@2x.png */,
+				901127C81F1C96110059097F /* Icon-App-60x60@3x.png */,
+				901127C91F1C96110059097F /* image_placeholder.png */,
+				901127CA1F1C96110059097F /* info.png */,
+				901127CB1F1C96110059097F /* inProcess.png */,
+				901127CC1F1C96110059097F /* Inrodaction_Image_black.jpg */,
+				901127CD1F1C96110059097F /* length_icon.png */,
+				901127CE1F1C96110059097F /* list_icon.png */,
+				901127CF1F1C96110059097F /* list.png */,
+				901127D01F1C96110059097F /* location_black.png */,
+				901127D11F1C96110059097F /* location_grey.png */,
+				901127D21F1C96110059097F /* location.png */,
+				901127D31F1C96110059097F /* LongRectangle.png */,
+				901127D41F1C96110059097F /* map.png */,
+				901127D51F1C96110059097F /* myPubs.png */,
+				901127D61F1C96110059097F /* nearest.png */,
+				901127D71F1C96110059097F /* number.png */,
+				901127D81F1C96110059097F /* offer_icon.png */,
+				901127D91F1C96110059097F /* placeholder.jpg */,
+				901127DA1F1C96110059097F /* rectangle_grey.png */,
+				901127DB1F1C96110059097F /* rectangle_orange.png */,
+				901127DC1F1C96110059097F /* rectangle.png */,
+				901127DD1F1C96110059097F /* setting_white.png */,
+				901127DE1F1C96110059097F /* setting.png */,
+				901127DF1F1C96110059097F /* star-gold.png */,
+				901127E01F1C96110059097F /* star-grey.png */,
+				901127E11F1C96110059097F /* trackLocation.png */,
+				901127E21F1C96110059097F /* Unchecked.jpeg */,
+				901127E31F1C96110059097F /* user_icon_whte.png */,
+				901127E41F1C96110059097F /* user_icon.png */,
+				901127E51F1C96110059097F /* UserIntro.jpeg */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		90AFCF171E979256009A0F67 = {
+			isa = PBXGroup;
+			children = (
+				90AFCF371E979256009A0F67 /* Truck24Tests */,
+				90AFCF421E979256009A0F67 /* Truck24UITests */,
+				901126161F1A27C90059097F /* Limuzin24 */,
+				9011262B1F1A27C90059097F /* Limuzin24Tests */,
+				901126361F1A27C90059097F /* Limuzin24UITests */,
+				90AFCF211E979256009A0F67 /* Products */,
+				7D490820EBCDD834CB272E28 /* Pods */,
+				879EF0C7B9E9BA600BF32E91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90AFCF211E979256009A0F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				901126151F1A27C90059097F /* Limuzin24.app */,
+				901126281F1A27C90059097F /* Limuzin24Tests.xctest */,
+				901126331F1A27C90059097F /* Limuzin24UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90AFCF371E979256009A0F67 /* Truck24Tests */ = {
+			isa = PBXGroup;
+			children = (
+				90AFCF381E979256009A0F67 /* Truck24Tests.swift */,
+				90AFCF3A1E979256009A0F67 /* Info.plist */,
+			);
+			path = Truck24Tests;
+			sourceTree = "<group>";
+		};
+		90AFCF421E979256009A0F67 /* Truck24UITests */ = {
+			isa = PBXGroup;
+			children = (
+				90AFCF431E979256009A0F67 /* Truck24UITests.swift */,
+				90AFCF451E979256009A0F67 /* Info.plist */,
+			);
+			path = Truck24UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		901126141F1A27C90059097F /* Limuzin24 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9011263A1F1A27C90059097F /* Build configuration list for PBXNativeTarget "Limuzin24" */;
+			buildPhases = (
+				2EAE8D92E3654DBDE8737980 /* [CP] Check Pods Manifest.lock */,
+				901126111F1A27C90059097F /* Sources */,
+				901126121F1A27C90059097F /* Frameworks */,
+				901126131F1A27C90059097F /* Resources */,
+				2EFF3FC7FF7C466E9691AE22 /* [CP] Embed Pods Frameworks */,
+				4A5FFAC41918A0964D48F06C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Limuzin24;
+			productName = Limuzin24;
+			productReference = 901126151F1A27C90059097F /* Limuzin24.app */;
+			productType = "com.apple.product-type.application";
+		};
+		901126271F1A27C90059097F /* Limuzin24Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9011263D1F1A27C90059097F /* Build configuration list for PBXNativeTarget "Limuzin24Tests" */;
+			buildPhases = (
+				45EB1EB94B714EAA19C72F27 /* [CP] Check Pods Manifest.lock */,
+				901126241F1A27C90059097F /* Sources */,
+				901126251F1A27C90059097F /* Frameworks */,
+				901126261F1A27C90059097F /* Resources */,
+				0E7DED09FF5D6693B2B6D4D7 /* [CP] Embed Pods Frameworks */,
+				603160A9C2737C6EF524C112 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9011262A1F1A27C90059097F /* PBXTargetDependency */,
+			);
+			name = Limuzin24Tests;
+			productName = Limuzin24Tests;
+			productReference = 901126281F1A27C90059097F /* Limuzin24Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		901126321F1A27C90059097F /* Limuzin24UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 901126401F1A27C90059097F /* Build configuration list for PBXNativeTarget "Limuzin24UITests" */;
+			buildPhases = (
+				8A791D1B314C5E936345EE93 /* [CP] Check Pods Manifest.lock */,
+				9011262F1F1A27C90059097F /* Sources */,
+				901126301F1A27C90059097F /* Frameworks */,
+				901126311F1A27C90059097F /* Resources */,
+				4F1CF1FB6D2656E4BB8DB7F9 /* [CP] Embed Pods Frameworks */,
+				D4DAEEC924D15C673BB656A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				901126351F1A27C90059097F /* PBXTargetDependency */,
+			);
+			name = Limuzin24UITests;
+			productName = Limuzin24UITests;
+			productReference = 901126331F1A27C90059097F /* Limuzin24UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90AFCF181E979256009A0F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Khusan Saidvaliev";
+				TargetAttributes = {
+					901126141F1A27C90059097F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8F7GJ2ANG4;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					901126271F1A27C90059097F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8F7GJ2ANG4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 901126141F1A27C90059097F;
+					};
+					901126321F1A27C90059097F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8F7GJ2ANG4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 901126141F1A27C90059097F;
+					};
+				};
+			};
+			buildConfigurationList = 90AFCF1B1E979256009A0F67 /* Build configuration list for PBXProject "Limuzin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90AFCF171E979256009A0F67;
+			productRefGroup = 90AFCF211E979256009A0F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				901126141F1A27C90059097F /* Limuzin24 */,
+				901126271F1A27C90059097F /* Limuzin24Tests */,
+				901126321F1A27C90059097F /* Limuzin24UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		901126131F1A27C90059097F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901127EF1F1C96110059097F /* car.png in Resources */,
+				901127EC1F1C96110059097F /* camera_icon.png in Resources */,
+				9011275C1F1A2C550059097F /* Main.storyboard in Resources */,
+				901127F71F1C96110059097F /* DriverInro_black.jpg in Resources */,
+				901128191F1C96120059097F /* setting_white.png in Resources */,
+				9011281B1F1C96120059097F /* star-gold.png in Resources */,
+				901127FF1F1C96110059097F /* Icon-App-29x29@2x.png in Resources */,
+				901127EB1F1C96110059097F /* callButton.png in Resources */,
+				9011275D1F1A2C550059097F /* Main.strings in Resources */,
+				901127ED1F1C96110059097F /* car_icon_for_map.png in Resources */,
+				901127F81F1C96110059097F /* empty.png in Resources */,
+				901127FD1F1C96110059097F /* Icon-App-20x20@2x.png in Resources */,
+				901128091F1C96120059097F /* length_icon.png in Resources */,
+				901127F61F1C96110059097F /* done.png in Resources */,
+				9011280A1F1C96120059097F /* list_icon.png in Resources */,
+				901128151F1C96120059097F /* placeholder.jpg in Resources */,
+				901128061F1C96120059097F /* info.png in Resources */,
+				901128181F1C96120059097F /* rectangle.png in Resources */,
+				901128171F1C96120059097F /* rectangle_orange.png in Resources */,
+				901128131F1C96120059097F /* number.png in Resources */,
+				901127E71F1C96110059097F /* B.png in Resources */,
+				901128041F1C96110059097F /* Icon-App-60x60@3x.png in Resources */,
+				9011280E1F1C96120059097F /* location.png in Resources */,
+				901128211F1C96120059097F /* UserIntro.jpeg in Resources */,
+				901127F21F1C96110059097F /* Checked.jpeg in Resources */,
+				9011281E1F1C96120059097F /* Unchecked.jpeg in Resources */,
+				901128101F1C96120059097F /* map.png in Resources */,
+				9011280D1F1C96120059097F /* location_grey.png in Resources */,
+				901127A21F1A2C560059097F /* Info.plist in Resources */,
+				901127E81F1C96110059097F /* backButton.png in Resources */,
+				901127FA1F1C96110059097F /* filter.png in Resources */,
+				901127F01F1C96110059097F /* check.png in Resources */,
+				901128121F1C96120059097F /* nearest.png in Resources */,
+				901127EA1F1C96110059097F /* call_icon.png in Resources */,
+				901128081F1C96120059097F /* Inrodaction_Image_black.jpg in Resources */,
+				901128031F1C96110059097F /* Icon-App-60x60@2x.png in Resources */,
+				9011281F1F1C96120059097F /* user_icon_whte.png in Resources */,
+				9011275A1F1A2C550059097F /* Assets.xcassets in Resources */,
+				901127F41F1C96110059097F /* circle_orange.png in Resources */,
+				901127F11F1C96110059097F /* checkBlack.png in Resources */,
+				9011276E1F1A2C560059097F /* Info.plist in Resources */,
+				901128161F1C96120059097F /* rectangle_grey.png in Resources */,
+				901127FB1F1C96110059097F /* help.png in Resources */,
+				901127F31F1C96110059097F /* circle_mask_blue.png in Resources */,
+				9011280C1F1C96120059097F /* location_black.png in Resources */,
+				901127FE1F1C96110059097F /* Icon-App-20x20@3x.png in Resources */,
+				901128111F1C96120059097F /* myPubs.png in Resources */,
+				9011280B1F1C96120059097F /* list.png in Resources */,
+				9011281C1F1C96120059097F /* star-grey.png in Resources */,
+				901128051F1C96120059097F /* image_placeholder.png in Resources */,
+				901128021F1C96110059097F /* Icon-App-40x40@3x.png in Resources */,
+				9011281A1F1C96120059097F /* setting.png in Resources */,
+				901128071F1C96120059097F /* inProcess.png in Resources */,
+				901127F51F1C96110059097F /* date.png in Resources */,
+				901128011F1C96110059097F /* Icon-App-40x40@2x.png in Resources */,
+				9011281D1F1C96120059097F /* trackLocation.png in Resources */,
+				901128001F1C96110059097F /* Icon-App-29x29@3x.png in Resources */,
+				9011280F1F1C96120059097F /* LongRectangle.png in Resources */,
+				901127E91F1C96110059097F /* calendar.png in Resources */,
+				901127FC1F1C96110059097F /* husan-ios.png in Resources */,
+				901128201F1C96120059097F /* user_icon.png in Resources */,
+				901127E61F1C96110059097F /* A.png in Resources */,
+				9011275B1F1A2C550059097F /* LaunchScreen.storyboard in Resources */,
+				901127F91F1C96110059097F /* error.png in Resources */,
+				901128141F1C96120059097F /* offer_icon.png in Resources */,
+				901127EE1F1C96110059097F /* car_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901126261F1A27C90059097F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901126311F1A27C90059097F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E7DED09FF5D6693B2B6D4D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Limuzin24Tests/Pods-Limuzin24Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EAE8D92E3654DBDE8737980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2EFF3FC7FF7C466E9691AE22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Limuzin24/Pods-Limuzin24-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45EB1EB94B714EAA19C72F27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A5FFAC41918A0964D48F06C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Limuzin24/Pods-Limuzin24-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F1CF1FB6D2656E4BB8DB7F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Limuzin24UITests/Pods-Limuzin24UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		603160A9C2737C6EF524C112 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Limuzin24Tests/Pods-Limuzin24Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A791D1B314C5E936345EE93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4DAEEC924D15C673BB656A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Limuzin24UITests/Pods-Limuzin24UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		901126111F1A27C90059097F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901127971F1A2C560059097F /* Settings.swift in Sources */,
+				9011278C1F1A2C560059097F /* Singleton.swift in Sources */,
+				9011279C1F1A2C560059097F /* getIncome.swift in Sources */,
+				901127691F1A2C560059097F /* FSCalendarHeaderView.m in Sources */,
+				901127911F1A2C560059097F /* CarFilter.swift in Sources */,
+				9011277C1F1A2C560059097F /* Inroduction.swift in Sources */,
+				9011276B1F1A2C560059097F /* FSCalendarStickyHeader.m in Sources */,
+				901127681F1A2C560059097F /* FSCalendarExtensions.m in Sources */,
+				901127741F1A2C560059097F /* InterfaceBuilderViewController.swift in Sources */,
+				901127751F1A2C560059097F /* LoadViewExampleViewController.swift in Sources */,
+				901127861F1A2C560059097F /* OfferCell.swift in Sources */,
+				9011279D1F1A2C560059097F /* MyCalendar.swift in Sources */,
+				901127851F1A2C560059097F /* Details.swift in Sources */,
+				901127A11F1A2C560059097F /* SignInDriver.swift in Sources */,
+				901127981F1A2C560059097F /* SignInCustomer.swift in Sources */,
+				9011278E1F1A2C560059097F /* VSMapView.swift in Sources */,
+				901127941F1A2C560059097F /* MyOrdersForCustomer.swift in Sources */,
+				901127931F1A2C560059097F /* DriverDateInfo.swift in Sources */,
+				901127821F1A2C560059097F /* CarCell.swift in Sources */,
+				901127621F1A2C550059097F /* FSCalendarCell.m in Sources */,
+				901127871F1A2C560059097F /* OrderData.swift in Sources */,
+				901127991F1A2C560059097F /* AddOrderForDriver.swift in Sources */,
+				9011277B1F1A2C560059097F /* ChooseType.swift in Sources */,
+				901127711F1A2C560059097F /* DIYCalendarCell.swift in Sources */,
+				901127921F1A2C560059097F /* CarInfoWithoutCalendar.swift in Sources */,
+				901127671F1A2C560059097F /* FSCalendarDelegationProxy.m in Sources */,
+				9011276D1F1A2C560059097F /* FSCalendarWeekdayView.m in Sources */,
+				901127651F1A2C560059097F /* FSCalendarConstants.m in Sources */,
+				901127631F1A2C550059097F /* FSCalendarCollectionView.m in Sources */,
+				901127661F1A2C560059097F /* FSCalendarDelegationFactory.m in Sources */,
+				901127A31F1A2C560059097F /* ViewController.swift in Sources */,
+				9011279A1F1A2C560059097F /* DateInfo.swift in Sources */,
+				901127841F1A2C560059097F /* CarShort.swift in Sources */,
+				901127901F1A2C560059097F /* CarDetails.swift in Sources */,
+				901127791F1A2C560059097F /* CarPlacement.swift in Sources */,
+				901127771F1A2C560059097F /* Agreement.swift in Sources */,
+				901127601F1A2C550059097F /* FSCalendarAppearance.m in Sources */,
+				9011276F1F1A2C560059097F /* CalendarConfigViewController.swift in Sources */,
+				9011279B1F1A2C560059097F /* DriverSettings.swift in Sources */,
+				901127721F1A2C560059097F /* DIYExampleViewController.swift in Sources */,
+				9011277A1F1A2C560059097F /* ChooseCarType.swift in Sources */,
+				901127701F1A2C560059097F /* DelegateAppearanceViewController.swift in Sources */,
+				9011278B1F1A2C560059097F /* SendLocation.swift in Sources */,
+				901127611F1A2C550059097F /* FSCalendarCalculator.m in Sources */,
+				9011278A1F1A2C560059097F /* PublicationData.swift in Sources */,
+				9011277F1F1A2C560059097F /* SetCoordinates.swift in Sources */,
+				9011276C1F1A2C560059097F /* FSCalendarTransitionCoordinator.m in Sources */,
+				9011276A1F1A2C560059097F /* FSCalendarScopeHandle.m in Sources */,
+				901127781F1A2C560059097F /* CarCategoryView.swift in Sources */,
+				901127801F1A2C560059097F /* SMSVerification.swift in Sources */,
+				901127831F1A2C560059097F /* CarData.swift in Sources */,
+				9011277E1F1A2C560059097F /* PopUpViewController.swift in Sources */,
+				9011278F1F1A2C560059097F /* AddPublication.swift in Sources */,
+				901127891F1A2C560059097F /* PublicationCell.swift in Sources */,
+				9011277D1F1A2C560059097F /* LogInCustomer.swift in Sources */,
+				901127591F1A2C550059097F /* AppDelegate.swift in Sources */,
+				9011275E1F1A2C550059097F /* FSCalendar+Deprecated.m in Sources */,
+				901127811F1A2C560059097F /* TargetLocationOnMap.swift in Sources */,
+				901127881F1A2C560059097F /* Publication.swift in Sources */,
+				9011278D1F1A2C560059097F /* TypeCell.swift in Sources */,
+				901127641F1A2C560059097F /* FSCalendarCollectionViewLayout.m in Sources */,
+				901127A01F1A2C560059097F /* SetImages.swift in Sources */,
+				901127731F1A2C560059097F /* FSCalendarScopeViewController.swift in Sources */,
+				9011279E1F1A2C560059097F /* OrderDetails.swift in Sources */,
+				901127961F1A2C560059097F /* NearList.swift in Sources */,
+				9011279F1F1A2C560059097F /* OrderListForDriver.swift in Sources */,
+				901127951F1A2C560059097F /* NearCarMap.swift in Sources */,
+				901127761F1A2C560059097F /* TableViewController.swift in Sources */,
+				9011275F1F1A2C550059097F /* FSCalendar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901126241F1A27C90059097F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9011262D1F1A27C90059097F /* Limuzin24Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9011262F1F1A27C90059097F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901126381F1A27C90059097F /* Limuzin24UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9011262A1F1A27C90059097F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 901126141F1A27C90059097F /* Limuzin24 */;
+			targetProxy = 901126291F1A27C90059097F /* PBXContainerItemProxy */;
+		};
+		901126351F1A27C90059097F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 901126141F1A27C90059097F /* Limuzin24 */;
+			targetProxy = 901126341F1A27C90059097F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		901126F41F1A2C550059097F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				901126F51F1A2C550059097F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		901126F61F1A2C550059097F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				901126F71F1A2C550059097F /* Base */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		901126F81F1A2C550059097F /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				901126F91F1A2C550059097F /* Base */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9011263B1F1A27C90059097F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B7D4590A52714B7C2F85993 /* Pods-Limuzin24.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8F7GJ2ANG4;
+				INFOPLIST_FILE = "$(SRCROOT)/Limuzin24/Scripts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MaCBook-air.Limuzin24";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Limuzin24/Limuzin24-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9011263C1F1A27C90059097F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427F227C2C22A6B817D612B5 /* Pods-Limuzin24.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8F7GJ2ANG4;
+				INFOPLIST_FILE = "$(SRCROOT)/Limuzin24/Scripts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MaCBook-air.Limuzin24";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Limuzin24/Limuzin24-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9011263E1F1A27C90059097F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82EC53AB92E4F77AE240F95 /* Pods-Limuzin24Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8F7GJ2ANG4;
+				INFOPLIST_FILE = Limuzin24Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MaCBook-air.Limuzin24Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Limuzin24.app/Limuzin24";
+			};
+			name = Debug;
+		};
+		9011263F1F1A27C90059097F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EECAA1D2729C1B275211F5E /* Pods-Limuzin24Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8F7GJ2ANG4;
+				INFOPLIST_FILE = Limuzin24Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MaCBook-air.Limuzin24Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Limuzin24.app/Limuzin24";
+			};
+			name = Release;
+		};
+		901126411F1A27C90059097F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381256BADE94C5E61FFA6150 /* Pods-Limuzin24UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8F7GJ2ANG4;
+				INFOPLIST_FILE = Limuzin24UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MaCBook-air.Limuzin24UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Limuzin24;
+			};
+			name = Debug;
+		};
+		901126421F1A27C90059097F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E215DC4E4F0CC5D66156B8C /* Pods-Limuzin24UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8F7GJ2ANG4;
+				INFOPLIST_FILE = Limuzin24UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MaCBook-air.Limuzin24UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Limuzin24;
+			};
+			name = Release;
+		};
+		90AFCF461E979256009A0F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90AFCF471E979256009A0F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9011263A1F1A27C90059097F /* Build configuration list for PBXNativeTarget "Limuzin24" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9011263B1F1A27C90059097F /* Debug */,
+				9011263C1F1A27C90059097F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9011263D1F1A27C90059097F /* Build configuration list for PBXNativeTarget "Limuzin24Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9011263E1F1A27C90059097F /* Debug */,
+				9011263F1F1A27C90059097F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		901126401F1A27C90059097F /* Build configuration list for PBXNativeTarget "Limuzin24UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				901126411F1A27C90059097F /* Debug */,
+				901126421F1A27C90059097F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AFCF1B1E979256009A0F67 /* Build configuration list for PBXProject "Limuzin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AFCF461E979256009A0F67 /* Debug */,
+				90AFCF471E979256009A0F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90AFCF181E979256009A0F67 /* Project object */;
+}
