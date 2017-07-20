@@ -15,9 +15,7 @@ class DriverSettings: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -34,7 +32,7 @@ class DriverSettings: UIViewController {
     }
     
     @IBAction func BackToСhooseType(_ sender: Any) {
-        NavigationManager.StopSendLoc()
+        //NavigationManager.StopSendLoc()
         AppData.ClearDB()
         NavigationManager.MoveToScene(sceneId: "ChooseType", View: self)
 

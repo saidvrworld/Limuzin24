@@ -139,7 +139,7 @@ class NavigationManager{
     }
     
     static func StopSendLoc(){
-            NavigationManager.LocationTimer?.invalidate()
+          //  NavigationManager.LocationTimer?.invalidate()
     }
     
     

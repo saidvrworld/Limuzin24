@@ -35,7 +35,7 @@ class SendLocation{
     
     func StartTimer(){
         var timer = Timer.scheduledTimer(timeInterval: 70.0, target: self, selector: #selector(self.updateLoc), userInfo: nil, repeats: true)
-        NavigationManager.LocationTimer = timer
+        NavigationManager.TimerList.append(timer) 
     }
     
     @objc func updateLoc() {
