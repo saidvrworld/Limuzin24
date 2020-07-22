@@ -432,6 +432,7 @@
 		901126161F1A27C90059097F /* Limuzin24 */ = {
 			isa = PBXGroup;
 			children = (
+				901128221F20F5890059097F /* uz.lproj */,
 				901127A71F1A35700059097F /* Limuzin-Bridging-Header.h */,
 				901127A81F1A35700059097F /* Limuzin24-Bridging-Header.h */,
 				901126F11F1A2C550059097F /* AppDelegate.swift */,
@@ -678,6 +679,13 @@
 				901127E51F1C96110059097F /* UserIntro.jpeg */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		901128221F20F5890059097F /* uz.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = uz.lproj;
 			sourceTree = "<group>";
 		};
 		90AFCF171E979256009A0F67 = {

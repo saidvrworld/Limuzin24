@@ -11,8 +11,9 @@ import UIKit
 
 class GetDriverIncome: UIViewController {
     
-    @IBOutlet weak var YearView: UITextField!
 
+    @IBOutlet weak var FromDate: UIDatePicker!
+    @IBOutlet weak var ToDate: UIDatePicker!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,18 +36,24 @@ class GetDriverIncome: UIViewController {
     }
     
     @IBAction func GetIncome(_ sender: Any) {
-        if(YearView.text?.characters.count == 4){
-             MakeRequest(urlstring: AppData.GetDriverIncomeUrl, token: AppData.token, year: YearView.text!)
-        }
-        else{
-         
-            NavigationManager.ShowError(errorText: "Введите год!", View: self)
-        }
+             MakeRequest(urlstring: AppData.GetDriverIncomeUrl, token: AppData.token,dateFrom: FromDate,dateTo: ToDate)
+        
+       
     }
     
-    private func MakeRequest(urlstring: String,token: String,year: String){
+    private func MakeRequest(urlstring: String,token: String,dateFrom: UIDatePicker,dateTo:UIDatePicker){
         
-        let parameters = "token=\(token)&year=\(year)"
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy.MM.dd"
+        
+        let from_date:String = dateFormatter.string(from: dateFrom.date)
+        var from_date_array = from_date.characters.split{$0 == "."}.map(String.init)
+        
+        let to_date:String = dateFormatter.string(from: dateTo.date)
+        var to_date_array = to_date.characters.split{$0 == "."}.map(String.init)
+
+
+        let parameters = "token=\(token)&yearFrom=\(from_date_array[0])&monthFrom=\(from_date_array[1])&dayFrom=\(from_date_array[2])&yearTo=\(to_date_array[0])&monthTo=\(to_date_array[1])&dayTo=\(to_date_array[2])"
         
         print(parameters)
         

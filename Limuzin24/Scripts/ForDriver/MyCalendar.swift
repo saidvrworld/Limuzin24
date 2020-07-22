@@ -49,7 +49,7 @@ class MyCalendar: UIViewController,FSCalendarDataSource, FSCalendarDelegate, FSC
     func LoadScene(){
         LoadingIndicator.isHidden = false
         GetOrders(urlstring: AppData.getDriverOrdersForCustomerUrl, token:AppData.token)
-        var timer = Timer.scheduledTimer(timeInterval: AppData.UpdateInterval, target: self, selector: #selector(self.updateCalendar), userInfo: nil, repeats: true)
+        let timer = Timer.scheduledTimer(timeInterval: AppData.UpdateInterval, target: self, selector: #selector(self.updateCalendar), userInfo: nil, repeats: true)
         NavigationManager.TimerList.append(timer)
         locManager.StartTimer()
         if(AppData.SendStatus == "true"){
@@ -57,6 +57,41 @@ class MyCalendar: UIViewController,FSCalendarDataSource, FSCalendarDelegate, FSC
         }
         else{
             LocationButton.setOn(false, animated: false)
+        }
+
+    }
+    
+    func LoadTheme(theme:Int){
+        switch (theme) {
+        case 0:
+            self.calendar.appearance.weekdayTextColor = UIColor(red: 14/255.0, green: 69/255.0, blue: 221/255.0, alpha: 1.0)
+            self.calendar.appearance.headerTitleColor = UIColor(red: 14/255.0, green: 69/255.0, blue: 221/255.0, alpha: 1.0)
+            self.calendar.appearance.eventDefaultColor = UIColor(red: 31/255.0, green: 119/255.0, blue: 219/255.0, alpha: 1.0)
+            self.calendar.appearance.selectionColor = UIColor(red: 31/255.0, green: 119/255.0, blue: 219/255.0, alpha: 1.0)
+            self.calendar.appearance.headerDateFormat = "MMMM yyyy"
+            self.calendar.appearance.todayColor = UIColor(red: 198/255.0, green: 51/255.0, blue: 42/255.0, alpha: 1.0)
+            self.calendar.appearance.borderRadius = 1.0
+            self.calendar.appearance.headerMinimumDissolvedAlpha = 0.2
+        case 1:
+            self.calendar.appearance.weekdayTextColor = UIColor.red
+            self.calendar.appearance.headerTitleColor = UIColor.darkGray
+            self.calendar.appearance.eventDefaultColor = UIColor.green
+            self.calendar.appearance.selectionColor = UIColor.blue
+            self.calendar.appearance.headerDateFormat = "yyyy-MM";
+            self.calendar.appearance.todayColor = UIColor.red
+            self.calendar.appearance.borderRadius = 1.0
+            self.calendar.appearance.headerMinimumDissolvedAlpha = 0.0
+        case 2:
+            self.calendar.appearance.weekdayTextColor = UIColor.red
+            self.calendar.appearance.headerTitleColor = UIColor.red
+            self.calendar.appearance.eventDefaultColor = UIColor.green
+            self.calendar.appearance.selectionColor = UIColor.blue
+            self.calendar.appearance.headerDateFormat = "yyyy/MM"
+            self.calendar.appearance.todayColor = UIColor.orange
+            self.calendar.appearance.borderRadius = 0
+            self.calendar.appearance.headerMinimumDissolvedAlpha = 1.0
+        default:
+            break;
         }
     }
     
@@ -221,6 +256,7 @@ class MyCalendar: UIViewController,FSCalendarDataSource, FSCalendarDelegate, FSC
         self.LoadingIndicator.isHidden = true
         // For UITest
         self.calendar.accessibilityIdentifier = "calendar"
+        
     }
     
     deinit {
